@@ -30,7 +30,7 @@ background-color: #13131F;}
   
   .header li a {
     display: block;
-    padding: 20px 20px;
+    padding: 10px 10px;
     text-decoration: none;
     color: rgba(196, 196, 196, 1);
   }
@@ -468,6 +468,8 @@ text-align: center;}
 
 @media only screen and (max-width:700px){
 
+  .header{width: 100%;}
+
   .texto-01 h1{padding: 20px;}
 
   .texto-01 p{width: 80%;
@@ -480,7 +482,8 @@ padding: 20px;}
 .first-img{margin-bottom: 10px;
 height: 280px;}
 
-.noticias-01 div img{height: 210px;}
+.noticias-01 div img{height: 210px;
+width: 95%;}
 
 .mini-image img{width: 100%;}
 
@@ -489,11 +492,13 @@ flex-direction: column;
 padding: 20px;}
 
 .noticias-01 div {padding: 10px;}
-.noticias-01 div span h1{width:90%;}
+.noticias-01 div span h1{width:100%;
+font-size: 10px;}
 
 .noticias-01 div span{padding: 10px;}
 
-.noticias-01 div span p{width: 90%;}
+.noticias-01 div span p{width: 100%;
+font-size: 8px;}
 
 .filmes{width: 100%;}
 .filmes-title h1{font-size:28px ;
