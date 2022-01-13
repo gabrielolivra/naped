@@ -484,12 +484,14 @@ height: 280px;}
 
 .noticias-01 div img{height: 210px;
 width: 95%;
-padding: 10px;}
+padding: 10px;
+object-fit: cover;}
 
 .noticias-01 div {display: flex;
 flex-direction: column;
 flex-wrap: wrap;}
-.mini-image img{width: 100%;}
+.mini-image img{width: 100%;
+object-fit: cover;}
 
 .noticias{display: flex;
 flex-direction: column;
