@@ -491,7 +491,11 @@ width: 95%;}
 flex-direction: column;
 padding: 20px;}
 
-.noticias-01 div {padding: 10px;}
+.noticias-mais-recentes article div img{width: auto;}
+
+.noticias-mais-recentes h1{padding: 20px;}
+
+.noticias-01 div {padding: 0px;}
 .noticias-01 div span h1{width:100%;
 font-size: 10px;}
 
@@ -500,24 +504,33 @@ font-size: 10px;}
 .noticias-01 div span p{width: 100%;
 font-size: 8px;}
 
-.filmes{width: 100%;}
-.filmes-title h1{font-size:28px ;
-width: 80%;
-padding-bottom: 10px;}
+.filmes{width: 100%;
+padding: 10px;}
+
+.filmes-title h1{font-size:22px ;
+width: 90%;
+padding:10px;}
+
+.filmes-title h3{padding:10px;}
 
 .filmes-title h3{font-size: 18px;
 width: 80%;
 padding-bottom: 10px;}
+.filmes-title p{padding: 10px;}
 
-.filme-01 img{width: 80%;}
+.filme-01 img{width: 90%;
+padding: 10px;}
 
-.filme-01 p{width: 80%;
-font-size: 14px;}
+.filme-01 p{width: 90%;
+font-size: 14px;
+padding: 10px;}
 
-.filme-02 img{width: 80%;}
+.filme-02 img{width: 90%;
+padding: 10px;}
 
-.filme-02 p{width: 80%;
-font-size: 14px;}
+.filme-02 p{width: 90%;
+font-size: 14px;
+padding: 10px;}
 
 .anime h1{font-size: 28px;}
 
