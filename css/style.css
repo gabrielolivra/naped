@@ -319,14 +319,14 @@ position: absolute;
 padding: 10px;
 margin-top:-80px}
 
-.noticias-mais-recentes article div img{filter:opacity(50%)}
+.noticias-mais-recentes article div img{filter:opacity(50%);}
 
 .noticias-mais-recentes article div{ margin: 20px;}
 
 .filmes{display: flex;
 flex-direction: column;
 justify-content: center;
-padding: 50px;}
+padding: 20px;}
 
 .filmes-title{line-height: 1.5;}
 .filmes-title h1{width: 1119px;
@@ -490,9 +490,13 @@ padding: 10px;}
 
 .noticias{display: flex;
 flex-direction: column;
-padding: 20px;}
+padding: 10px;}
 
-.noticias-mais-recentes article div img{width: auto;}
+.noticias-mais-recentes article div img{width: 100%;}
+.noticias-mais-recentes article div p{width: 80%;}
+
+.noticias-mais-recentes article div{width: 100%;
+margin: 10px;}
 
 .noticias-mais-recentes h1{padding: 20px;}
 
@@ -506,31 +510,41 @@ font-size: 10px;}
 font-size: 8px;}
 
 .filmes{width: 100%;
-padding: 10px;}
+padding:0;}
 
-.filmes-title h1{font-size:22px ;
+.filmes-title h1{font-size:20px ;
 width: 90%;
 padding:10px;}
 
-.filmes-title h3{padding:10px;}
+.filmes-title h3{padding:10px;
+font-size: 18px;}
+
+.filmes-title p{padding: 10px;
+font-size: 12px;}
 
 .filmes-title h3{font-size: 18px;
 width: 80%;
 padding-bottom: 10px;}
 .filmes-title p{padding: 10px;}
 
+.filmes{width: 100%;}
+
+.filme-01{width: 100%;}
+
+.filme-02{width: 100%;}
+
 .filme-01 img{width: 90%;
 padding: 10px;}
 
 .filme-01 p{width: 90%;
-font-size: 14px;
+font-size: 13px;
 padding: 10px;}
 
 .filme-02 img{width: 90%;
 padding: 10px;}
 
 .filme-02 p{width: 90%;
-font-size: 14px;
+font-size: 13px;
 padding: 10px;}
 
 
