@@ -315,9 +315,9 @@ justify-content: space-around;}
 .noticias-mais-recentes article div p{ color:rgba(254, 251, 251, 1);
 width: 303px;
 font-size: 13px;
-position: relative;
+position: absolute;
 padding: 10px;
-margin-top:-80px}
+margin-top:-100px}
 
 .noticias-mais-recentes article div img{filter:opacity(50%);}
 
