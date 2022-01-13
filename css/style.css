@@ -486,6 +486,9 @@ height: 280px;}
 width: 95%;
 padding: 10px;}
 
+.noticias-01 div {display: flex;
+flex-direction: column;
+flex-wrap: wrap;}
 .mini-image img{width: 100%;}
 
 .noticias{display: flex;
@@ -502,12 +505,12 @@ margin: 10px;}
 
 .noticias-01 div {padding: 0px;}
 .noticias-01 div span h1{width:100%;
-font-size: 10px;}
+font-size: 14px;}
 
 .noticias-01 div span{padding: 10px;}
 
 .noticias-01 div span p{width: 100%;
-font-size: 8px;}
+font-size: 12px;}
 
 .filmes{width: 100%;
 padding:0;}
