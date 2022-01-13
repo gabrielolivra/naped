@@ -497,7 +497,8 @@ object-fit: cover;}
 flex-direction: column;
 padding: 10px;}
 
-.noticias-mais-recentes article div img{width: 100%;}
+.noticias-mais-recentes article div img{width: 100%;
+object-fit: cover;}
 .noticias-mais-recentes article div p{width: 80%;}
 
 .noticias-mais-recentes article div{width: 100%;
