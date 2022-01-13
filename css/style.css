@@ -608,7 +608,8 @@ object-fit: cover;}
 flex-direction: column;
 flex-wrap: wrap;}
 .mini-image img{width: 100%;
-object-fit:cover;}
+object-fit:cover;
+margin-bottom: 20px;}
 
 .mini-image p{width: 90%;}
 
@@ -711,4 +712,3 @@ padding-bottom: 20px;}
 }
   
  
-}
