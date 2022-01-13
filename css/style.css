@@ -532,10 +532,14 @@ padding: 10px;}
 font-size: 14px;
 padding: 10px;}
 
-.anime h1{font-size: 28px;}
+
+.anime h1{font-size: 28px;
+padding: 20px;}
 
 .anime p{font-size: 16px;
-width: 80%;}
+width: 80%;
+padding:20px;
+margin-top: 80px;}
 
 .anime img{width: 100%;
 height: 250px;}
