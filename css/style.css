@@ -583,3 +583,132 @@ font-size: 15px;
 padding-bottom: 20px;}
 
 }
+
+
+@media only screen and (max-width:1030px){
+
+  .texto-01 h1{padding: 20px;}
+
+  .texto-01 p{width: 80%;
+  padding: 20px;}
+
+  .imagens-01{display: flex;
+  flex-direction: column;
+padding: 20px;}
+
+.first-img{margin-bottom: 10px;
+height: 280px;}
+
+.noticias-01 div img{height: 210px;
+width: 95%;
+padding: 10px;
+object-fit: cover;}
+
+.noticias-01 div {display: flex;
+flex-direction: column;
+flex-wrap: wrap;}
+.mini-image img{width: 100%;
+object-fit:cover;}
+
+.mini-image p{width: 90%;}
+
+.noticias{display: flex;
+flex-direction: column;
+padding: 10px;}
+
+.noticias-mais-recentes article div img{width: 100%;
+object-fit: cover;}
+.noticias-mais-recentes article div p{width: 80%;;}
+
+.noticias-mais-recentes article div{width: 100%;
+margin: 10px;}
+
+.noticias-02{width: 100%;}
+.noticias-02 div img {width: 95%;
+padding: 10px;}
+
+.noticias-02 div span p{padding-left: 20px;
+width: 85%;}
+
+.noticias-mais-recentes h1{padding: 20px;}
+
+.noticias-01 div {padding: 0px;}
+.noticias-01 div span h1{width:100%;
+font-size: 14px;}
+
+.noticias-01 div span{padding: 10px;}
+
+.noticias-01 div span p{width: 100%;
+font-size: 12px;}
+
+.filmes{width: 100%;
+padding:0;}
+
+.filmes-title h1{font-size:20px ;
+width: 90%;
+padding:10px;}
+
+.filmes-title h3{padding:10px;
+font-size: 18px;}
+
+.filmes-title p{padding: 10px;
+font-size: 12px;}
+
+.filmes-title h3{font-size: 18px;
+width: 80%;
+padding-bottom: 10px;}
+.filmes-title p{padding: 10px;}
+
+.filmes{width: 100%;}
+
+.filme-01{width: 100%;}
+
+.filme-02{width: 100%;}
+
+.filme-01 img{width: 94%;
+padding: 10px;}
+
+.filme-01 p{width: 94%;
+font-size: 13px;
+padding: 10px;}
+
+.filme-02 img{width: 94%;
+padding: 10px;}
+
+.filme-02 p{width: 94%;
+font-size: 13px;
+padding: 10px;}
+
+
+.anime h1{font-size: 28px;
+padding: 20px;}
+
+.anime p{font-size: 16px;
+width: 80%;
+padding:20px;
+margin-top: 80px;}
+
+.anime img{width: 100%;
+height: 250px;}
+
+::-webkit-input-placeholder{font-size: 17px;}
+
+.pag-inicial{display: flex;
+flex-wrap: wrap-reverse;}
+
+.pag-inicial-img img{width: 100%;}
+
+.pag-inicial-img p{padding-bottom: 20px;}
+
+.pag-inicial-text h1{width: 95%;
+font-size: 28px;
+padding-bottom: 20px;}
+
+.pag-inicial-text p{width: 95%;
+font-size: 15px;
+padding-bottom: 20px;}
+
+}
+  
+ 
+}
