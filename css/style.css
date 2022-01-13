@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{margin: 0;
+padding: 0;
+list-style: none;}
+
+body{font-family: Lexend Deca;
+background-color: #13131F;}
+
+.header {
+    background-color: #13131F;
+    position: relative;
+    width: 100%;
+    height: 65px;
+    z-index: 3;
+    top: 0;
+    left: 0;
+  
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #13131F;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: rgba(196, 196, 196, 1);
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #13131F;
+    color: white;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-weight: 600;
+    font-size: 2.2em;
+    padding: 10px 20px;
+    color: rgba(130, 87, 230, 1);
+    text-decoration: none;
+  }
+  
+  
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+
+  .texto-01{color: rgba(196, 196, 196, 1);
+display: flex;
+flex-direction: column;}
+
+.texto-01 h1{padding: 50px;}
+
+.texto-01 p{padding: 50px;
+width: 492px;}
+
+.imagens-01{display: flex;
+justify-content: space-around;}
+
+.mini-image{display: flex;
+flex-direction: column;}
+
+.mini-image img{filter: opacity(50%);}
+
+.mini-image p{width: 303px;
+font-size: 13px;
+color: rgba(254, 251, 251, 1);
+position: relative;
+margin-top: -80px;
+padding: 10px;}
+
+.fogo{width: 338px;
+height: 165px;
+margin-bottom: 10px;}
+
+.akali{width: 338px;
+height:165px;
+margin-top: 10px;}
+
+
+.noticias{display: flex;
+    align-items: center;
+    justify-content: space-around;
+padding: 50px;}
+
+.naruto{display: flex;
+padding-bottom: 20px;}
+
+.naruto span{padding:20px;}
+
+.naruto span h1{width: 554px;
+color: rgba(254, 251, 251, 1);
+font-size: 13px;
+font-weight: 400;}
+
+.naruto span p{width: 500px;
+  color: rgba(196, 196, 196, 1);
+font-size: 11px;}
+
+.naruto span button{ width: 100px;
+height: 25px;
+background-color: rgba(130, 87, 230, 1);
+color: rgba(254, 251, 251, 1);
+border: none;
+border-radius: 3px;
+margin-top: 20px;}
+
+.homem-aranha{display: flex;
+padding-bottom: 20px;}
+
+.homem-aranha span{padding: 20px;}
+
+.homem-aranha span h1{width: 554px;
+    color: rgba(254, 251, 251, 1);
+    font-size: 13px;
+    font-weight: 400;}
+
+.homem-aranha span p{width: 500px;
+    color: rgba(196, 196, 196, 1);
+  font-size: 11px;}
+
+.homem-aranha span button{width: 100px;
+    height: 25px;
+    background-color: rgba(130, 87, 230, 1);
+    color: rgba(254, 251, 251, 1);
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;}
+
+    .minecraft{display: flex;
+    padding-bottom: 20px;}
+
+    .minecraft span{padding: 20px;}
+
+    .minecraft span h1{width: 554px;
+        color: rgba(254, 251, 251, 1);
+        font-size: 13px;
+        font-weight: 400;}
+
+    .minecraft span p{width: 500px;
+    color: rgba(196, 196, 196, 1);
+  font-size: 11px;}
+
+    .minecraft span button{width: 100px;
+        height: 25px;
+        background-color: rgba(130, 87, 230, 1);
+        color: rgba(254, 251, 251, 1);
+        border: none;
+        border-radius: 3px;
+        margin-top: 20px;}
+
+.hp{display: flex;
+padding-bottom: 20px;}
+
+.hp span{padding: 20px;}
+
+.hp span h1{width: 554px;
+    color: rgba(254, 251, 251, 1);
+    font-size: 13px;
+    font-weight: 400;}
+
+.hp span p{width: 500px;
+    color: rgba(196, 196, 196, 1);
+  font-size: 11px;}
+
+.hp span button{width: 100px;
+    height: 25px;
+    background-color: rgba(130, 87, 230, 1);
+    color: rgba(254, 251, 251, 1);
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;}
+
+.vamp{display: flex;
+}
+
+.vamp span{padding: 20px;}
+
+.vamp span h1{width: 554px;
+    color: rgba(254, 251, 251, 1);
+    font-size: 13px;
+    font-weight: 400;}
+
+.vamp span p{width: 500px;
+    color: rgba(196, 196, 196, 1);
+  font-size: 11px;}
+
+.vamp span button{width: 100px;
+    height: 25px;
+    background-color: rgba(130, 87, 230, 1);
+    color: rgba(254, 251, 251, 1);
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;}
+
+.noticias-02{display: flex;
+flex-direction: column;}
+
+.noticias-02 div span p{position:absolute;
+margin-top: -80px;
+padding: 10px;}
+
+.noticias-02 div{padding-bottom: 20px;}
+.noticias-02 div img{filter: opacity(50%);}
+
+.noticias-02 h1{color: rgba(254, 251, 251, 1);
+text-align: center;
+font-size: 24px;
+padding-bottom: 20px;}
+
+    .chihiro span p{width: 303px;
+    color: rgba(254, 251, 251, 1);
+font-size: 13px;
+padding-bottom: 20px;}
+
+.homens span p{width: 303px;
+    color: rgba(254, 251, 251, 1);
+font-size: 13px;
+padding-bottom: 20px;}
+
+.good-of-war span p{width: 303px;
+    color: rgba(254, 251, 251, 1);
+font-size: 13px;
+padding-bottom: 20px;}
+
+.noticias-mais-recentes{display: flex;
+flex-direction: column;}
+
+.noticias-mais-recentes h1{padding: 50px;
+    color: rgba(254, 251, 251, 1);}
+
+.noticias-mais-recentes article{display: flex;
+flex-wrap: wrap;
+justify-content: space-around;}
+
+.noticias-mais-recentes article div p{ color:rgba(254, 251, 251, 1);
+width: 303px;
+font-size: 13px;
+position: absolute;
+padding: 10px;
+margin-top:-80px}
+
+.noticias-mais-recentes article div img{filter:opacity(50%)}
+
+.noticias-mais-recentes article div{ margin: 20px;}
+
+.filmes{display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 50px;}
+
+.filmes-title{line-height: 1.5;}
+.filmes-title h1{width: 1119px;
+font-size: 36px;
+color: rgba(255, 255, 255, 1);}
+
+.filmes-title h3{color: rgba(196, 196, 196, 1);
+font-weight: 500;
+font-size: 24px;
+width: 635px;}
+
+.filmes-title p{width: 174px;
+font-size: 18px;
+color: rgba(196, 196, 196, 1);}
+
+.filme-01 p{font-size: 24px;
+text-align: justify;
+width: 1119px;
+padding-top: 20px;
+padding-bottom: 20px;
+color:rgba(196, 196, 196, 1);}
+
+.filme-02 p{font-size: 24px;
+    text-align: justify;
+    width: 1119px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:rgba(196, 196, 196, 1);}
+
+
+
+
+.anime {display: flex;
+flex-direction: column;}
+
+.anime h1{position: absolute;
+padding:70px;
+color: rgba(254, 251, 251, 1);
+font-size: 48px;}
+
+.anime p{position: absolute;
+    padding: 70px;
+    padding-top: 150px;
+    width: 492px;
+    color: rgba(196, 196, 196, 1);
+    font-size: 20px;
+   }
+
+.anime img{filter: opacity(50%);}
+
+.pesquise-aqui{display: flex;
+justify-content: center;
+padding: 20px;}
+
+
+.pesquise-aqui input{width: 1119px;
+height: 60px;
+background-color: rgba(40, 40, 48, 1);
+border: none;}
+
+::-webkit-input-placeholder{font-size: 25px;
+padding-left: 20px ;}
+
+.icon-animes{display: flex;
+flex-wrap: wrap;
+justify-content: space-around;}
+
+.icon-animes div p{width: 303px;
+color: rgba(254, 251, 251, 1);
+font-size: 13px;
+position: absolute;
+padding: 10px;
+margin-top:-100px}
+
+.icon-animes div img{filter: opacity(50%);
+margin-bottom: 20px;}
+
+.pag-inicial{display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 50px;}
+
+.pag-inicial-text{
+    line-height: 1.6;
+}
+
+.pag-inicial-text h1{width: 457px;
+    font-size: 48px;
+    color: rgba(254, 251, 251, 1);
+    font-weight: 400;
+}
+
+.pag-inicial-text p{width: 495px;
+    color: rgba(196, 196, 196, 1);
+    font-size: 20px;
+}
+
+.pag-inicial-text span button{
+    background-color: rgba(130, 87, 230, 1);
+    color: rgba(254, 251, 251, 1);
+    font-size: 18px;
+    width: 174px;
+    height: 44px;
+    border: none;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.pag-inicial-img{display: flex;
+flex-direction: column;
+align-items: center;}
+
+.pag-inicial-img p{width: 298px;
+color: rgba(196, 196, 196, 1);
+font-size: 20px;
+padding-top: 30px;
+text-align: center;}
+
+
+
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  
+   
+  }
+
+@media only screen and (max-width:700px){
+  .texto-01 p{width: 85%;}
+
+  .imagens-01{display: flex;
+  flex-direction: column;
+padding: 20px;}
+
+.first-img{margin-bottom: 10px;}
+
+.mini-image img{width: 100%;}
+
+.noticias{display: flex;
+flex-direction: column;}
+
+.noticias-01 div {padding: 10px;}
+.noticias-01 div span h1{width:100%;}
+
+.noticias-01 div span p{width: 100%;}
+
+.filmes{width: 100%;}
+.filmes-title h1{font-size:28px ;
+width: 80%;
+padding-bottom: 10px;}
+
+.filmes-title h3{font-size: 18px;
+width: 80%;
+padding-bottom: 10px;}
+
+.filme-01 img{width: 80%;}
+
+.filme-01 p{width: 80%;
+font-size: 14px;}
+
+.filme-02 img{width: 80%;}
+
+.filme-02 p{width: 80%;
+font-size: 14px;}
+
+.anime h1{font-size: 28px;}
+
+.anime p{font-size: 16px;
+width: 80%;}
+
+.anime img{width: 100%;
+height: 250px;}
+
+::-webkit-input-placeholder{font-size: 17px;}
+
+.pag-inicial{display: flex;
+flex-wrap: wrap-reverse;}
+
+.pag-inicial-img img{width: 100%;}
+
+.pag-inicial-img p{padding-bottom: 20px;}
+
+.pag-inicial-text h1{width: 95%;
+font-size: 28px;
+padding-bottom: 20px;}
+
+.pag-inicial-text p{width: 95%;
+font-size: 15px;
+padding-bottom: 20px;}
+
+}
