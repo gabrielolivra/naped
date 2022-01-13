@@ -315,7 +315,7 @@ justify-content: space-around;}
 .noticias-mais-recentes article div p{ color:rgba(254, 251, 251, 1);
 width: 303px;
 font-size: 13px;
-position: absolute;
+position: relative;
 padding: 10px;
 margin-top:-80px}
 
@@ -499,7 +499,7 @@ padding: 10px;}
 
 .noticias-mais-recentes article div img{width: 100%;
 object-fit: cover;}
-.noticias-mais-recentes article div p{width: 80%;}
+.noticias-mais-recentes article div p{width: 80%;;}
 
 .noticias-mais-recentes article div{width: 100%;
 margin: 10px;}
