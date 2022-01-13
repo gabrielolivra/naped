@@ -473,7 +473,10 @@ text-align: center;}
   flex-direction: column;
 padding: 20px;}
 
-.first-img{margin-bottom: 10px;}
+.first-img{margin-bottom: 10px;
+height: 280px;}
+
+.noticias-01 div img{height: 210px;}
 
 .mini-image img{width: 100%;}
 
@@ -481,9 +484,9 @@ padding: 20px;}
 flex-direction: column;}
 
 .noticias-01 div {padding: 10px;}
-.noticias-01 div span h1{width:100%;}
+.noticias-01 div span h1{width:90%;}
 
-.noticias-01 div span p{width: 100%;}
+.noticias-01 div span p{width: 90%;}
 
 .filmes{width: 100%;}
 .filmes-title h1{font-size:28px ;
